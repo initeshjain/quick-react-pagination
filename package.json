@@ -1,0 +1,26 @@
+{
+  "name": "quick-react-pagination",
+  "version": "1.0.2",
+  "description": "This package is a simplest form of pagination that you can use in your frontend apps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [
+    "pagination",
+    "reactjs"
+  ],
+  "author": "https://github.com/initeshjain",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
